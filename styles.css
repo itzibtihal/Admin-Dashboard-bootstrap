@@ -1,8 +1,8 @@
 :root {
-  --main-bg-color: #009d63;
-  --main-text-color: #009d63;
-  --second-text-color: #bbbec5;
-  --second-bg-color: #c1efde;
+  --main-bg-color: #703BF7;
+  --main-text-color: #703BF7;
+  --second-text-color: #b5a0eb;
+  --second-bg-color: #c8b8ef;
 }
 
 .primary-text {
@@ -29,14 +29,17 @@
   overflow-x: hidden;
   background-image: linear-gradient(
     to right,
-    #baf3d7,
-    #c2f5de,
-    #cbf7e4,
-    #d4f8ea,
-    #ddfaef
+    #000000,
+    #020007,
+    #0d022a,
+    #17024d,
+    #9e8bcd
   );
 }
 
+.bg{
+  background-color: #ffffff;
+}
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
